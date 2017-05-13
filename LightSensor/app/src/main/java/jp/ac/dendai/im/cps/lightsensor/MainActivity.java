@@ -15,7 +15,10 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     // TODO:1 SensorManagerの宣言
     private SensorManager sensorManager;
-    // TODO: 9 TextViewの宣言
+
+    // TODO: 9 TextViewの宣言とlayoutの変更
+    // 以下のリンクを参考にTextViewを配置してください。
+    // https://github.com/cpslab/android-tutorial-2017/blob/master/LightSensor/app/src/main/res/layout/activity_main.xml
     private TextView textView;
 
     @Override
